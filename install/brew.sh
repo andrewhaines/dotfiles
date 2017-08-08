@@ -20,6 +20,7 @@ apps=(
   git
   gpg
   npm
+  nvm
   php71
   pow
   tmux
