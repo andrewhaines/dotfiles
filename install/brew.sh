@@ -18,6 +18,7 @@ apps=(
   bash-git-prompt
   cmake
   git
+  gpg
   npm
   php71
   pow
