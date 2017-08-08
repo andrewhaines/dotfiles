@@ -1,0 +1,55 @@
+[User]
+	name = Andrew Haines
+	user = andrewhaines
+	email = andrew@fiatinsight.com
+
+[core]
+	excludesfile = ~/.gitignore
+  autocrlf = input
+	safecrlf = true
+
+[push]
+	default = tracking
+
+[branch]
+	autosetuprebase = always
+
+[branch "master"]
+	rebase = true
+
+[alias]
+
+[merge]
+  tool = vimdiff
+
+[mergetool]
+  prompt = false
+
+[diff]
+  renames = true
+	tool = vimdiff
+
+[difftool]
+  prompt = false
+
+[color]
+  ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "branch"]
+  current = yellow reverse
+	local = yellow
+  remote = green
+
+[color "diff"]
+  meta = blue bold
+  frag = magenta bold
+  old = red
+  new = green
+
+[color "status"]
+  added = blue bold
+  changed = green bold
+	untracked = cyan
