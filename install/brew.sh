@@ -24,6 +24,7 @@ apps=(
   php71
   pow
   tmux
+  sphinx
 )
 
 brew install "${apps[@]}"
